@@ -1,9 +1,0 @@
-4. Commands:
-- /start
-- /play <YouTube URL>
-- /pause
-- /resume
-- /stop
-
-## Deployment
-- Recommended: [Railway](https://railway.app) or [Replit](https://replit.com) for 24/7 uptime
