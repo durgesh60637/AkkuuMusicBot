@@ -11,9 +11,7 @@ from pyrogram.types import Message
 api_id = int(os.getenv("API_ID"))
 api_hash = os.getenv("API_HASH")
 bot_token = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))
-
-app = Client("CombinedBot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
+OWNER_ID = int(os.getenv("OWNER_ID"))
 
 # ---------------- DATABASE ----------------
 conn = sqlite3.connect("economy.db", check_same_thread=False)
